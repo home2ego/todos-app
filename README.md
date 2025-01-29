@@ -21,10 +21,6 @@
 
 - Todos are stored on both client and server.
 
-> 👉 **Error Notifications**:
-
-- Displays alerts for failed operations (empty inputs, or issues loading/adding/updating/deleting tasks) - `set the network to offline mode to check`
-
 > 👉 **Add Todos / Bulk Deletion / Toggle Completion / Inline Editing**:
 
 - Create new tasks with a single action.
@@ -34,8 +30,13 @@
 
 > 👉 **Sorting / Active Count**:
 
-- Filter todos by All, Completed, or Active.
+- Filter todos by `All`, `Completed`, or `Active`.
 - Track the number of uncompleted todos.
+
+> 👉 **Error Notifications**:
+
+- Displays alerts for failed operations (empty inputs, or issues loading/adding/updating/deleting tasks).
+> ❗ `set the network to offline mode to check`
 
 > 👉 **Simulated Loading**:
 
