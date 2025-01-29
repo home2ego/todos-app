@@ -1,6 +1,12 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 const BASE_URL = 'https://mate.academy/students-api';
 
+function wait(delay: number) {
+  return new Promise((resolve) => {
+    setTimeout(resolve, delay);
+  });
+}
+
 type RequestMethod = 'GET' | 'POST' | 'PATCH' | 'DELETE';
 
 function request<T>(
@@ -17,13 +23,15 @@ function request<T>(
     };
   }
 
-  return fetch(BASE_URL + url, options).then((response) => {
-    if (!response.ok) {
-      throw new Error('API issues');
-    }
+  return wait(100)
+    .then(() => fetch(BASE_URL + url, options))
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error('API issues');
+      }
 
-    return response.json();
-  });
+      return response.json();
+    });
 }
 
 export const client = {
