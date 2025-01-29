@@ -36,7 +36,7 @@
 > 👉 **Error Notifications**:
 
 - Displays alerts for failed operations (empty inputs, or issues loading/adding/updating/deleting tasks).
-> ❗ `set the network to offline mode to check`
+- ❗ `set the network to offline mode to check`
 
 > 👉 **Simulated Loading**:
 
