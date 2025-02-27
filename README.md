@@ -2,7 +2,7 @@
 
 "Todos App" is a single-page application that allows users to add and manage todos on both the client and server.
 
-### [Todos Preview](https://todos-web.pages.dev/)
+### [Live Demo](https://todos-web.pages.dev/)
 
 ## Technologies Used
 
