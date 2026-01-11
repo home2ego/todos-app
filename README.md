@@ -1,42 +1,71 @@
 # Todos App
 
-"Todos App" is a single-page application that allows users to add and manage todos on both the client and server.
+A React todo app that allows users to create, manage, and organize their to-do lists.
 
-### [Live Demo](https://todos-web.pages.dev/)
+## 🚀 Live Demo
 
-## Technologies Used
+Experience the app live at: https://todos-web.pages.dev/
 
-- React.js
-- TS
-- JS
-- Fetch, REST API
-- Sass (SCSS)
-- Bulma
-- Font Awesome
-- React Transition Group
+## 📦 Technologies
 
-## Features
+### Core
+- `React` — UI framework
+- `TypeScript` — Type safety
+- `SCSS & Bulma` — Styling
+- `Fetch API & REST API` — Server communications
 
-> 👉 **Dual Storage**:
+### UI/UX
+- `React Transition Group` — Smooth animations
 
-- Todos are stored on both client and server.
+### Development & Deployment
+- `Vite` — Build tool
+- `ESLint` — Code quality
+- `Cloudflare` — Hosting and deployment
 
-> 👉 **Add Todos / Bulk Deletion / Toggle Completion / Inline Editing**:
+## ✨ Features
+- **Storage**: Tasks are stored on the server.
+- **Loading**: Slightly delayed server responses (100 ms) with loading indicators for better UX.
+- **Add Todos**: Create new tasks by typing in the input field and pressing `Enter`.
 
-- Create new tasks with a single action.
-- Delete individual or all completed todos at once.
-- Mark single or multiple todos as complete.
-- Double-click to edit existing todos.
+<div align="center">
+    <img src="docs/todos-add.gif" width="400" alt="Add Todos" />
+</div>
 
-> 👉 **Sorting / Active Count**:
+- **Inline Editing**: Double-click to edit existing task.
 
-- Filter todos by `All`, `Completed`, or `Active`.
-- Track the number of uncompleted todos.
+<div align="center">
+    <img src="docs/todos-edit.gif" width="400" alt="Inline Editing" />
+</div>
 
-> 👉 **Error Notifications**:
+- **Toggle Completion & Deletion**: Delete individual tasks, or toggle the completion status of all tasks to clear them at once.
 
-- Displays alerts for failed operations (❗e.g., when the network is set to `offline mode`, inputs are empty, or tasks fail to load/add/update/delete).
+<div align="center">
+    <img src="docs/todos-delete.gif" width="400" alt="Toggle Completion & Deletion" />
+</div>
 
-> 👉 **Simulated Loading**:
+- **Filtering**: View all tasks, only active ones, or completed ones. Also displays the count of active tasks.
 
-- Uses a `wait` function to mimic server delays and display loaders.
+<div align="center">
+    <img src="docs/todos-filter.gif" width="400" alt="Filtering" />
+</div>
+
+- **Error Notifications**: Alerts for issues like network failures, empty inputs, or API errors.
+
+<div align="center">
+    <img src="docs/todos-error.gif" width="400" alt="Error Notifications" />
+</div>
+
+## 💭 How Can It Be Improved?
+
+- Add user authentication to support multiple users and private todo lists.
+- Implement real backend integration (e.g., with Node.js/Express and a database like MongoDB/PostgreSQL).
+- Add drag-and-drop reordering of tasks.
+- Integrate dark mode toggling for improved accessibility.
+
+## 🚦 Running the Project
+
+```bash
+git clone https://github.com/home2ego/todos-app
+cd todos-app
+npm install    # or pnpm install / yarn install
+npm run dev    # or pnpm dev / yarn dev
