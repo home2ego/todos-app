@@ -28,31 +28,31 @@ Experience the app live at: https://todos-web.pages.dev/
 - **Add Todos**: Create new tasks by typing in the input field and pressing `Enter`.
 
 <div align="center">
-    <img src="docs/todos-add.gif" width="400" alt="Add Todos" />
+    <img src="docs/todos-add.gif" width="500" height="300" alt="Add Todos" />
 </div>
 
-- **Inline Editing**: Double-click to edit existing task.
+- **Inline Editing**: Double-click to edit existing task, `Esc` to cancel editing.
 
 <div align="center">
-    <img src="docs/todos-edit.gif" width="400" alt="Inline Editing" />
+    <img src="docs/todos-edit.gif" width="500" height="300" alt="Inline Editing" />
 </div>
 
 - **Toggle Completion & Deletion**: Delete individual tasks, or toggle the completion status of all tasks to clear them at once.
 
 <div align="center">
-    <img src="docs/todos-delete.gif" width="400" alt="Toggle Completion & Deletion" />
+    <img src="docs/todos-delete.gif" width="500" height="300" alt="Toggle Completion & Deletion" />
 </div>
 
 - **Filtering**: View all tasks, only active ones, or completed ones. Also displays the count of active tasks.
 
 <div align="center">
-    <img src="docs/todos-filter.gif" width="400" alt="Filtering" />
+    <img src="docs/todos-filter.gif" width="500" height="300" alt="Filtering" />
 </div>
 
 - **Error Notifications**: Alerts for issues like network failures, empty inputs, or API errors.
 
 <div align="center">
-    <img src="docs/todos-error.gif" width="400" alt="Error Notifications" />
+    <img src="docs/todos-error.gif" width="500" height="300" alt="Error Notifications" />
 </div>
 
 ## 💭 How Can It Be Improved?
