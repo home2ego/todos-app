@@ -4,22 +4,23 @@ A React todo app that allows users to create, manage, and organize their to-do l
 
 ## 🚀 Live Demo
 
-Experience the app live at: https://todos-web.pages.dev/
+Try it here: https://todos-web.pages.dev/
 
 ## 📦 Technologies
 
 ### Core
 - `React` — UI framework
 - `TypeScript` — Type safety
+- `HTML5` — Structure
 - `SCSS & Bulma` — Styling
-- `Fetch API & REST API` — Server communications
+- `REST APIs (Fetch API)` — Server communications
 
 ### UI/UX
 - `React Transition Group` — Smooth animations
 
 ### Development & Deployment
 - `Vite` — Build tool
-- `ESLint` — Code quality
+- `ESLint & Prettier` — Code quality & formatting
 - `Cloudflare` — Hosting and deployment
 
 ## ✨ Features
