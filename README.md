@@ -11,7 +11,6 @@ Try it here: https://todos-web.pages.dev/
 ### Core
 - `React` — UI framework
 - `TypeScript` — Type safety
-- `HTML5` — Structure
 - `SCSS & Bulma` — Styling
 - `REST APIs (Fetch API)` — Server communications
 
@@ -20,7 +19,7 @@ Try it here: https://todos-web.pages.dev/
 
 ### Development & Deployment
 - `Vite` — Build tool
-- `ESLint & Prettier` — Code quality & formatting
+- `ESLint & Prettier` — Code quality and formatting
 - `Cloudflare` — Hosting and deployment
 
 ## ✨ Features
