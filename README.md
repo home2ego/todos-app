@@ -1,71 +1,79 @@
-# Todos App
+# Todos Manager
 
-A React todo app that allows users to create, manage, and organize their to-do lists.
+A React todos manager that interacts with a REST API for server-side data handling and CRUD operations.
 
-## 🚀 Live Demo
+## [Live Demo](https://todos-web.pages.dev/)
 
-Try it here: https://todos-web.pages.dev/
-
-## 📦 Technologies
+## 🛠️ Technical Stack
 
 ### Core
 - `React` — UI framework
 - `TypeScript` — Type safety
-- `SCSS & Bulma` — Styling
-- `REST APIs (Fetch API)` — Server communications
+- `SCSS`, `Bulma` (CSS framework) — Styling
+- `REST API` (Fetch) — Server communications
 
-### UI/UX
-- `React Transition Group` — Smooth animations
-
-### Development & Deployment
+### UI/UX & Development
+- `React Transition Group` — Animations
 - `Vite` — Build tool
-- `ESLint & Prettier` — Code quality and formatting
-- `Cloudflare` — Hosting and deployment
+- `ESLint` — Linting
 
-## ✨ Features
-- **Storage**: Tasks are stored on the server.
-- **Loading**: Slightly delayed server responses (100 ms) with loading indicators for better UX.
-- **Add Todos**: Create new tasks by typing in the input field and pressing `Enter`.
+## 💡 Key Features
+- **Creation**: Server-side todos creation via REST API, triggered by the `Enter` key.
 
-<div align="center">
-    <img src="docs/todos-add.gif" width="500" height="300" alt="Add Todos" />
-</div>
+<details>
+    <summary><b>View Demo</b></summary>
+    <p align="center">
+        <img src="docs/todos-add.gif" width="500" height="300" alt="Add Todos" />
+    </p>
+</details>
 
-- **Inline Editing**: Double-click to edit existing task, `Esc` to cancel editing.
+- **Inline Editing**: Double-click to edit todos; `Esc` to cancel and `Enter` to save changes.
 
-<div align="center">
-    <img src="docs/todos-edit.gif" width="500" height="300" alt="Inline Editing" />
-</div>
+<details>
+    <summary><b>View Demo</b></summary>
+    <p align="center">
+        <img src="docs/todos-edit.gif" width="500" height="300" alt="Inline Editing" />
+    </p>
+</details>
 
-- **Toggle Completion & Deletion**: Delete individual tasks, or toggle the completion status of all tasks to clear them at once.
+- **Deleting**: Individual todo deletion, or bulk toggling to delete all todos at once.
 
-<div align="center">
+<details>
+<summary><b>View Demo</b></summary>
+<p align="center">
     <img src="docs/todos-delete.gif" width="500" height="300" alt="Toggle Completion & Deletion" />
-</div>
+</p>
+</details>
 
-- **Filtering**: View all tasks, only active ones, or completed ones. Also displays the count of active tasks.
+- **Filtering**: Client-side status filtering (All/Active/Completed) with a live count of active todos.
 
-<div align="center">
+<details>
+<summary><b>View Demo</b></summary>
+<p align="center">
     <img src="docs/todos-filter.gif" width="500" height="300" alt="Filtering" />
-</div>
+</p>
+</details>
 
-- **Error Notifications**: Alerts for issues like network failures, empty inputs, or API errors.
+- **Feedback & Error Handling**: Visual loading state for simulated server latency (100ms) and notifications for API or validation failures.
 
-<div align="center">
+<details>
+<summary><b>View Demo</b></summary>
+<p align="center">
     <img src="docs/todos-error.gif" width="500" height="300" alt="Error Notifications" />
-</div>
+</p>
+</details>
 
-## 💭 How Can It Be Improved?
-
-- Add user authentication to support multiple users and private todo lists.
-- Implement real backend integration (e.g., with Node.js/Express and a database like MongoDB/PostgreSQL).
-- Add drag-and-drop reordering of tasks.
-- Integrate dark mode toggling for improved accessibility.
-
-## 🚦 Running the Project
+## 🚦 How to Run
 
 ```bash
+# Clone the repository
 git clone https://github.com/home2ego/todos-app
+
+# Navigate to directory
 cd todos-app
-npm install    # or pnpm install / yarn install
-npm run dev    # or pnpm dev / yarn dev
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
