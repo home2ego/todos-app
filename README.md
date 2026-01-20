@@ -67,7 +67,7 @@ A React todos manager that interacts with a REST API for server-side data handli
 
 ```bash
 # Clone the repository
-git clone https://github.com/home2ego/todos-app
+git clone https://github.com/home2ego/todos-app.git
 
 # Navigate to directory
 cd todos-app
